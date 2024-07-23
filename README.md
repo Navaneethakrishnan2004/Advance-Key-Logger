@@ -11,9 +11,12 @@ This is only for educational Purpose, If you use this for wrong Purpose, Then we
  Maattikitta company poruppu illada boys and girls 😼
 
 
-## Author
+## Authors
 
-- [@FlyingCulprit](https://www.github.com/flyingculprit)
+- [@Navaneethakrishnan2004](https://github.com/Navaneethakrishnan2004)
+- [@Sreeaswinrajha](https://github.com/sreeaswinrajha)
+- [@sophiyasophi](https://github.com/sophiyasophi)
+- [@Ranjana1812](https://github.com/Ranjana1812)
 
 
 ## Deployment
