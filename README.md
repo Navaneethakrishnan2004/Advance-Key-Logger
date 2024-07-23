@@ -35,11 +35,6 @@ Run on terminal or vs code or any Python environment
 
 
 
-## Blog
-
-[Keylogger By SMTP](https://linktodocumentation)
-
-
 ## Feedback
 
 If you have any feedback, please reach out to us at navaneethakrishnanps2021ai@gmail.com
