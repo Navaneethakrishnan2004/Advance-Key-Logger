@@ -57,4 +57,4 @@ class Keylogger:
 
 
 
-#pyinstaller --onefile Keyloggerrrr.py
+#installer --onefile Logger.py
