@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['Logger.py'],
+    ['logger.Py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='Logger',
+    name='logger',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,

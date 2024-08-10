@@ -2049,6 +2049,9 @@ imported by:
  &#8226;   <a href="#email.headerregistry">email.headerregistry</a>
  &#8226;   <a href="#email.iterators">email.iterators</a>
  &#8226;   <a href="#email.message">email.message</a>
+ &#8226;   <a href="#email.mime">email.mime</a>
+ &#8226;   <a href="#email.mime.base">email.mime.base</a>
+ &#8226;   <a href="#email.mime.nonmultipart">email.mime.nonmultipart</a>
  &#8226;   <a href="#email.parser">email.parser</a>
  &#8226;   <a href="#email.policy">email.policy</a>
  &#8226;   <a href="#email.quoprimime">email.quoprimime</a>
@@ -2252,6 +2255,7 @@ imported by:
  &#8226;   <a href="#email.header">email.header</a>
  &#8226;   <a href="#email.headerregistry">email.headerregistry</a>
  &#8226;   <a href="#email.message">email.message</a>
+ &#8226;   <a href="#email.mime.nonmultipart">email.mime.nonmultipart</a>
 
   </div>
 
@@ -2388,9 +2392,102 @@ imports:
 imported by:
     <a href="#email.contentmanager">email.contentmanager</a>
  &#8226;   <a href="#email.feedparser">email.feedparser</a>
+ &#8226;   <a href="#email.mime.base">email.mime.base</a>
  &#8226;   <a href="#email.policy">email.policy</a>
  &#8226;   <a href="#importlib.metadata._adapters">importlib.metadata._adapters</a>
  &#8226;   <a href="#smtplib">smtplib</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="email.mime"></a>
+  <a target="code" href="///C:/Users/navan/AppData/Local/Programs/Python/Python312/Lib/email/mime/__init__.py" type="text/plain"><tt>email.mime</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#email">email</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#email.mime.base">email.mime.base</a>
+ &#8226;   <a href="#email.mime.multipart">email.mime.multipart</a>
+ &#8226;   <a href="#email.mime.nonmultipart">email.mime.nonmultipart</a>
+ &#8226;   <a href="#email.mime.text">email.mime.text</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="email.mime.base"></a>
+  <a target="code" href="///C:/Users/navan/AppData/Local/Programs/Python/Python312/Lib/email/mime/base.py" type="text/plain"><tt>email.mime.base</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#email">email</a>
+ &#8226;   <a href="#email.message">email.message</a>
+ &#8226;   <a href="#email.mime">email.mime</a>
+ &#8226;   <a href="#email.policy">email.policy</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#email.mime.multipart">email.mime.multipart</a>
+ &#8226;   <a href="#email.mime.nonmultipart">email.mime.nonmultipart</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="email.mime.multipart"></a>
+  <a target="code" href="///C:/Users/navan/AppData/Local/Programs/Python/Python312/Lib/email/mime/multipart.py" type="text/plain"><tt>email.mime.multipart</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#email.mime">email.mime</a>
+ &#8226;   <a href="#email.mime.base">email.mime.base</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#keylogger">keylogger</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="email.mime.nonmultipart"></a>
+  <a target="code" href="///C:/Users/navan/AppData/Local/Programs/Python/Python312/Lib/email/mime/nonmultipart.py" type="text/plain"><tt>email.mime.nonmultipart</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#email">email</a>
+ &#8226;   <a href="#email.errors">email.errors</a>
+ &#8226;   <a href="#email.mime">email.mime</a>
+ &#8226;   <a href="#email.mime.base">email.mime.base</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#email.mime.text">email.mime.text</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="email.mime.text"></a>
+  <a target="code" href="///C:/Users/navan/AppData/Local/Programs/Python/Python312/Lib/email/mime/text.py" type="text/plain"><tt>email.mime.text</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#email.mime">email.mime</a>
+ &#8226;   <a href="#email.mime.nonmultipart">email.mime.nonmultipart</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#keylogger">keylogger</a>
 
   </div>
 
@@ -2433,6 +2530,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#email.message">email.message</a>
+ &#8226;   <a href="#email.mime.base">email.mime.base</a>
 
   </div>
 
@@ -5363,6 +5461,7 @@ imports:
  &#8226;   <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib._bootstrap">importlib._bootstrap</a>
  &#8226;   <a href="#importlib._bootstrap_external">importlib._bootstrap_external</a>
+ &#8226;   <a href="#importlib.machinery">importlib.machinery</a>
  &#8226;   <a href="#sys">sys</a>
  &#8226;   <a href="#warnings">warnings</a>
 
@@ -5495,6 +5594,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#ctypes.util">ctypes.util</a>
+ &#8226;   <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib.abc">importlib.abc</a>
  &#8226;   <a href="#inspect">inspect</a>
  &#8226;   <a href="#py_compile">py_compile</a>
@@ -6011,7 +6111,9 @@ imported by:
   <a target="code" href="///D:/git/Advance-Key-Logger/keylogger.py" type="text/plain"><tt>keylogger</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#pynput.keyboard">pynput.keyboard</a>
+    <a href="#email.mime.multipart">email.mime.multipart</a>
+ &#8226;   <a href="#email.mime.text">email.mime.text</a>
+ &#8226;   <a href="#pynput.keyboard">pynput.keyboard</a>
  &#8226;   <a href="#smtplib">smtplib</a>
  &#8226;   <a href="#threading">threading</a>
 
