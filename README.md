@@ -35,9 +35,9 @@ Run on terminal or vs code or any Python environment
 
 ## Features
 
-- Send to your mail
+- Send aleet to your mail
 - Automatic mailing
-- Mail for you Once in 10 seconds
+- Mail for you Once in 1 seconds when alert is generated
 
 
 
